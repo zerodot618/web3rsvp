@@ -33,7 +33,7 @@ export function handleNewEventCreated(event: NewEventCreated): void {
         if (name) {
           newEvent.name = name.toString();
         }
-
+    
         if (description) {
           newEvent.description = description.toString();
         }
